@@ -123,3 +123,7 @@
 7. Check wallets status
 
     `node app.js --check-wallets`: Gather Sol from zombie wallets to zombie wallet.
+
+
+
+## ❤️ Much love to the fam
