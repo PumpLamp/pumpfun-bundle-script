@@ -1,0 +1,36 @@
+{
+    "name": "bundle-bot-solana",
+    "version": "1.0.0",
+    "description": "This is bundle bot for lauching token on PumpFun.",
+    "main": "app.js",
+    "scripts": {
+        "launch": "node app.js --launch",
+        "simulate": "node app.js --simulate",
+        "buy": "node app.js --buy",
+        "test": "node test.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "@project-serum/anchor": "^0.26.0",
+        "@pump-fun/pump-sdk": "^1.18.7",
+        "@solana/spl-token": "^0.4.6",
+        "@solana/web3.js": "^1.94.0",
+        "axios": "^1.7.7",
+        "bignumber.js": "^9.1.2",
+        "blob": "^0.1.0",
+        "bn.js": "^5.2.1",
+        "bs58": "^5.0.0",
+        "chalk": "^5.6.2",
+        "dotenv": "^16.4.5",
+        "figlet": "^1.7.0",
+        "form-data": "^4.0.0",
+        "fs": "^0.0.1-security",
+        "js-base64": "^3.7.8",
+        "program-commander": "14.1.10",
+        "rpc-websockets": "^5.3.1"
+    },
+    "resolutions": {
+        "rpc-websockets": "^6.0.0"
+    }
+}
